@@ -8,6 +8,7 @@ deployment secrets are needed for the default exercise.
 The app calculates shipping: 500 cents below a 5000-cent order, free shipping at or
 above 5000 cents. Those boundaries make regressions easy to introduce and understand.
 
+
 ```mermaid
 flowchart LR
     A[Push or pull request] --> B[Lint and format]
